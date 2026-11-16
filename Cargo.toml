@@ -21,7 +21,8 @@ version = "0.4.0"
 path = "./gbm-sys"
 
 [dependencies.drm]
-version = "0.14.0"
+git = "https://github.com/maciej-lech/drm-rs.git"
+rev = "12ee307714479efee625e4dbd36c65d732330e28"
 optional = true
 
 [dependencies.wayland-server]
@@ -42,7 +43,8 @@ features = ["derive"]
 optional = true
 
 [dev-dependencies.drm]
-version = "0.14.0"
+git = "https://github.com/maciej-lech/drm-rs.git"
+rev = "12ee307714479efee625e4dbd36c65d732330e28"
 
 [features]
 default = ["import-wayland", "import-egl", "drm-support"]
